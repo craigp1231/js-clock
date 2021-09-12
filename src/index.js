@@ -16,7 +16,7 @@ const element = document.createElement('div');
 document.body.appendChild(element);
 
 const updateTime = function () {
-    const dateObj = useUTC ? dayjs.UTC() : dayjs();
+    const dateObj = useUTC ? dayjs.utc() : dayjs();
     element.innerText = dateObj.format(dateFormat);
 }
 
