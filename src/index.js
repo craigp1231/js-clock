@@ -3,12 +3,14 @@ import dayjs from 'dayjs';
 const urlParams = new URLSearchParams(window.location.search);
 
 const dateFormat = urlParams.has('format') ? urlParams.get('format') : 'DD/MM/YYYY';
+const useUTC = urlParams.has('utc') ? urlParams.get('utc') == '1' : false;
 
 const element = document.createElement('div');
 document.body.appendChild(element);
 
 const updateTime = function () {
-    element.innerText = dayjs().format(dateFormat);
+    const dateObj = useUTC ? dayjs.UTC() : dayjs();
+    element.innerText = dateObj.format(dateFormat);
 }
 
 setInterval(updateTime, 1000);
