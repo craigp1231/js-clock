@@ -17,6 +17,7 @@ MMM    | Jan-Dec          | The abbreviated month name
 MMMM   | January-December | The full month name
 D      | 1-31             | The day of the month
 DD     | 01-31            | The day of the month, 2-digits
+Do	   | 1st 2nd ... 31st | Day of Month with ordinal
 d      | 0-6              | The day of the week, with Sunday as 0
 dd     | Su-Sa            | The min name of the day of the week
 ddd    | Sun-Sat          | The short name of the day of the week

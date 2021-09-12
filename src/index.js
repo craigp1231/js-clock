@@ -1,4 +1,11 @@
 import dayjs from 'dayjs';
+import AdvancedFormat from 'dayjs/plugin/advancedFormat';
+import UTC from 'dayjs/plugin/utc';
+import timezone from 'dayjs/plugin/timezone';
+
+dayjs.extend(AdvancedFormat);
+dayjs.extend(UTC);
+dayjs.extend(timezone);
 
 const urlParams = new URLSearchParams(window.location.search);
 
