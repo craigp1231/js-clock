@@ -1,0 +1,30 @@
+{
+  "name": "js-clock",
+  "version": "1.0.0",
+  "description": "Simple JavaScript Clock to display in OBS",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/craigp1231/js-clock.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "clock",
+    "display"
+  ],
+  "author": "Craig Phillips",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "dayjs": "^1.10.7"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
