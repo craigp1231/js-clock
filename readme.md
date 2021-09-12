@@ -1,7 +1,7 @@
-#js-clock#
+# js-clock
 A Simple JavaScript Clock for stream displays
 
-##URL Parameters##
+## URL Parameters
 
 **format**
 
