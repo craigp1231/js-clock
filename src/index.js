@@ -2,7 +2,7 @@ import dayjs from 'dayjs';
 
 const urlParams = new URLSearchParams(window.location.search);
 
-const dateFormat = urlParams.has('format') ? urlParams.get('format') : 'DD/MM/YYYY';
+const dateFormat = urlParams.has('format') ? urlParams.get('format') : 'DD/MM/YYYY HH:mm:ss';
 const useUTC = urlParams.has('utc') ? urlParams.get('utc') == '1' : false;
 
 const element = document.createElement('div');
