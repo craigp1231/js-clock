@@ -1,14 +1,11 @@
-Simple JavaScript Clock to display in OBS
+#js-clock#
+A Simple JavaScript Clock for stream displays
 
-List of formats [DayJS Formats](https://day.js.org/docs/en/display/format) 
+##URL Parameters##
 
-|   	|   	|   	|   	|   	|
-|---	|---	|---	|---	|---	|
-|   	|   	|   	|   	|   	|
-|   	|   	|   	|   	|   	|
-|   	|   	|   	|   	|   	|
+**format**
 
-List of all available formats
+List of all available formats from [DayJS Formats](https://day.js.org/docs/en/display/format) 
 
 Format | Output           | Description
 -------|------------------|--------------------------------------
@@ -37,3 +34,11 @@ Z      | +05:00           | The offset from UTC, ±HH:mm
 ZZ     | +0500            | The offset from UTC, ±HHmm
 A      | AM PM            | 
 a      | am pm            | 
+
+
+**utc**
+
+Value | Description
+------|----------------------------------
+0     | Uses default local time [default]
+1     | Uses UTC time
