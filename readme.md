@@ -2,9 +2,9 @@
 A Simple JavaScript Clock for stream displays, with customisable formats and styles.
 
 <p align="center">
-    <img src="https://dpyv9h0pv5pev.cloudfront.net/img/clock1.png" width="150" alt="Clock Demo 1"/>
-    <img src="https://dpyv9h0pv5pev.cloudfront.net/img/clock2.png" width="150" alt="Clock Demo 2"/>
-    <img src="https://dpyv9h0pv5pev.cloudfront.net/img/clock3.png" width="150" alt="Clock Demo 3"/>
+    <img src="https://dpyv9h0pv5pev.cloudfront.net/img/clock1.png" width="200" alt="Clock Demo 1"/>
+    <img src="https://dpyv9h0pv5pev.cloudfront.net/img/clock2.png" width="200" alt="Clock Demo 2"/>
+    <img src="https://dpyv9h0pv5pev.cloudfront.net/img/clock3.png" width="200" alt="Clock Demo 3"/>
 </p>
 
 ___
